@@ -1,0 +1,10 @@
+name: 'fomular1'
+services:
+  postgres:
+    image: postgres:14
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: let-me-in
+      POSTGRES_DB: fomular1
