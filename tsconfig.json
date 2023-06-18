@@ -16,6 +16,12 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@config": ["src/config"],
+      "@environments": ["src/environments"],
+      "@utils": ["src/utils"],
+      "@entities": ["src/entities"]
+    }
   }
 }
